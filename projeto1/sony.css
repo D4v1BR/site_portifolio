@@ -1,0 +1,50 @@
+    #title{color:black;}
+    h1{background-color: white;
+        position: absolute;
+        margin:0px;
+        top:0px;
+        left:0px;
+        right:0px;  
+    }
+
+    #start{margin-top: 130px;}
+    p{
+        text-align: center;
+    }
+
+    body{
+        background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/space.jpg);
+        color: rgb(241, 224, 224);
+
+    }     
+    .aviso{color: yellow }
+    form{
+        text-align: center;
+    }
+
+    .formulario{
+        background-color: transparent;
+    }
+
+
+
+
+    input:hover{
+        background-color:transparent;
+        color:white;
+    }
+
+    textarea:hover{
+        background-color: transparent;
+        color:white
+    }
+
+    a:hover{color:rgb(0, 255, 234)} 
+
+    a{color: white}
+
+    button:hover{
+        background-color: black;
+        color: white
+    }
+    

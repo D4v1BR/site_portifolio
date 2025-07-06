@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+    <title>Compra do console</title>
+    <link rel="stylesheet" href="teste.css">
+
+   
+
+
+</head>
+<body width="device-width">
+    <h1 id="title"><img src="img/PS_black.png" width="180"></h1> 
+    <p id="start">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+         Rnatus labore laborum et consectetur voluptatibus, delectus autem illum, iste provident quae, 
+         minima amet maiores libero asperiores doloribus minus sequi incidunt saepe deleniti! 
+         Saepe molestiae vero tempore odio dolorem adipisci nobis.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure sequi quidem accusamus? 
+                A eos corporis pariatur, amet non maiores. Impedit, in. Quaerat repellat eveniet placeat 
+                ipsum nihil unde modi hic vitae blanditiis quis possimus eum numquam inventore, 
+                et facere est.<br>
+            <b class="aviso">(Não levem a sério o que está escrito aqui, são apenas textos de testes.)</b></p>
+            <div id="div1">
+                <p id="par1">O futuro pertence àqueles que acreditam na beleza de seus sonhos.</p>
+                <p>Seja bem-vindo ao meu site incrível!</p>
+                <p>Aprender HTML é o primeiro passo para criar a web!</p>
+                <p>"A simplicidade é a sofisticação máxima" - Leonardo da Vinci</p>
+                <p>Este texto tem uma cor azul porque estilizei com HTML inline!</p>
+                <p>Hoje é um ótimo dia para começar algo novo!</p>
+            </div>
+                <p> Para mais informações, acesse<a href="https://www.playstation.com/pt-br/"> o site oficial da Sony</a> e seja feliz.</p>
+        <p>Preencha o formulário e escolha os requisitos para o seu console:<br><b class="aviso">Obs.: Clique com o mouse em cima das dos requisitos que deseja preencher.</b></p><br><br>
+        <form action="teste.jsp"method="get">
+            <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required><br><br>
+            <label for="email">email</label>
+                <input type="email" id="email" name="email" required><br><br>
+            <label for="CPF">CPF:</label>
+                <input type="number" id="CPF" name="CPF" required><br><br>
+            <label for="CEP">CEP:</label>
+                <input type="number" id="CEP" name="CEP" required><br><br>
+            <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone" required><br><br>
+            <label for="date">Data da entrega:</label>
+                <input type="date" id="data" name="data da entrega" required><br><br>
+        <p>Escolha o tamanho do SSD:</p>
+            <label for="500GB">
+                <input type="radio" id="500GB" name="tamanho" value="500GB" checked>500GB</label>
+            <label for="1TB">
+                <input type="radio" id="1TB" name="tamanho" value="1TB">1TB</label>
+            <label for="2TB">
+                <input type="radio" id="2TB" name="tamanho" value="2TB">2TB</label><br><br>
+            <label for="opcoes">Escolha a cor do console:</label>
+        <select id="opcoes" name="opcoes">
+            <option value="white" checked>Branca</option>
+            <option value="black">Preta</option>
+            <option value="Aniversary 30°th">Especial 30°th </option>
+        </select>
+        <p>Escolha dos periféricos:</p>
+            <label>
+                <input type="checkbox" name="periféricos" value="Controle">Controle</label>
+            <label>
+                <input type="checkbox" name="periféricos" value="Headset">Headset</label>
+            <label>
+                <input type="checkbox" name="periféricos" value="PlayStation portátil">PlayStation portátil</label><br><br>
+        <label for="mensagem">Deixe aqui sua ideia de customização:</label><br>
+            <textarea id="mensagem" name="mensagem" rows="4" cols="50"></textarea><br><br>
+        <button type="submit">Finalizar</button>
+        </form>
+    <p id="rafa"></p>
+    
+</body>
+</html>
